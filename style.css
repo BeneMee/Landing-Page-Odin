@@ -1,13 +1,45 @@
 body {
     margin: 0;
-    
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
 }
 
 .logo {
-    width: 8%;
+    width: 10%;
+}
+
+nav {
+    padding: 15px 15% 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: #e5e7eb;
+}
+
+.hero-section {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
 
 .container {
     height: 400px;
     overflow:hidden;
+    display: flex;
+    padding: 100px 15%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.hero-img {
+   max-width: 486px;
 }
