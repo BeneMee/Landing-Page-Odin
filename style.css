@@ -100,3 +100,63 @@ nav {
 .feature-wrapper {
     margin: 0 35px;
 }
+
+.feedback-section {
+    background-color: #e5e7eb ;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 100px;
+}
+
+.quote-wrapper {
+    padding: 50px 10% 0;
+}
+
+
+figcaption {
+    position: absolute;
+    right: 350px;
+    font-style: normal;
+    font-weight: 300;
+
+}
+
+.call-to-action-section {
+    text-align: center;
+    padding: 100px 15%;
+}
+
+.container-call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;  
+    padding: 50px 150px;
+    border-radius: 10px; 
+}
+
+.text-wrapper {
+    text-align: left;
+
+
+}
+
+.text-wrapper > h3,p {
+    margin: 0;
+}
+
+.container-call-to-action > button {
+    background-color:#3882f6;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 30px;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+
