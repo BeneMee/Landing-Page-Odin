@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    
+}
+
+.logo {
+    width: 8%;
+}
+
+.container {
+    height: 400px;
+    overflow:hidden;
+}
